@@ -1,0 +1,108 @@
+.about__content {
+  display: flex;
+}
+
+.about__img {
+  flex: 1;
+  margin-right: 80px;
+}
+
+.about__text-block {
+  flex: 1;
+  position: relative;
+}
+
+.about__text {
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.about__blockquote {
+  margin: 0; 
+  padding: 0;
+  padding-left: 40px;
+}
+
+.about__text_margin {
+  margin-bottom: 39px;
+}
+
+.about__quote-founder {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.13;
+  text-transform: uppercase;
+  position: relative;
+  white-space: pre-line;
+  margin-bottom: 41px;
+  padding-left: 10px;
+}
+
+.about__quote-founder:before, .about__quote-founder:after {
+  content: "";
+  display: inline-block;
+  width: 39px;
+  height: 34px;
+  background-image: url("../img/about/quotes.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.13636;
+  text-transform: uppercase;
+  color: #6c0287;
+}
+
+.about__quote-founder:before {
+  position: absolute;
+  left: -40px;
+  top: -10px;
+}
+
+.about__quote-founder:after {
+  position: absolute;
+  right: 140px;
+  bottom: 6px;
+  transform: rotate(180deg);
+}
+
+.about__author-info {
+  display: flex;
+  justify-content: center;
+}
+
+.about__owner-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 29px;
+}
+
+.about__quote-author {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 230px;
+}
+
+
+
+/* .about__quote-author {
+  width: 280px;
+  height: 84px;  
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.about__owner-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 10px;
+} */
+

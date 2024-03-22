@@ -1,0 +1,88 @@
+.contacts__address {
+  font-style: normal;
+  padding-left: 60px;
+  width: 274px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-bottom: 39px;
+}
+
+.contacts__text {
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.contacts__phone, .contacts__mail {
+  display: inline-block;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.contacts__phone {
+  margin-bottom: 11px;
+}
+
+.contacts__text:before {
+  content: url("../icons/contacts/location.svg"); 
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+  left: -60px;
+  top: 15px;
+}
+
+.contacts__phone:before {
+  content: url("../icons/contacts/phone-call.svg"); 
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+  left: -60px;
+}
+
+.contacts__mail:before {
+  content: url("../icons/contacts/mail.svg"); 
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  left: -60px;
+}
+
+.contacts__item {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.contacts__item:last-child {
+  margin-right: 0; 
+}
+
+.contacts__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.contacts__link:hover {
+  color: #cd06ff;
+}
+
+.contacts__link:focus {
+  outline-color: #cd06ff;
+}
+
+.contacts__link:active {
+  color: #840aa3;
+}

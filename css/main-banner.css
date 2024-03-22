@@ -1,0 +1,36 @@
+
+.main-banner {
+  min-height: 1018px;
+}
+
+.container {
+  position: relative;
+}
+
+.main-banner__title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 1;
+  letter-spacing: -0.1em;
+  position: relative;
+  z-index: -1;
+  max-width: 100%; 
+}
+
+.main-banner__subtitle {
+  display: inline-block;
+  padding-left: 90px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.8;
+}
+
+.main-banner__photo {
+  width: 675px;
+  height: auto;
+  position: absolute;
+  top: 61px;
+  right: 130px;
+}
+
+

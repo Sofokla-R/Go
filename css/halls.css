@@ -1,0 +1,47 @@
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.halls__link {
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.halls__item {
+  width: 580px;
+  min-height: 349px; 
+  margin-bottom: 20px;
+  margin-right: 20px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 134px 0;
+  text-align: center;
+}
+
+.halls__item:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.halls__item:nth-child(even) {
+  margin-right: 0;
+}
+
+.halls__item_vibes {
+  background-image: url("/img/halls/vibes.jpeg");
+}
+
+.halls__item_wars {
+  background-image: url("/img/halls/star-wars.jpeg");
+}
+
+.halls__item_west {
+  background-image: url("/img/halls/wild-west.jpeg");
+}
+
+.halls__item_neon {
+  background-image: url("/img/halls/neon-style.jpeg");
+}
