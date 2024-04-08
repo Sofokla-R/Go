@@ -1,6 +1,6 @@
 
 .main-banner {
-  min-height: 1018px;
+  min-height: 922px;
 }
 
 .container {
@@ -23,6 +23,7 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 1.8;
+  margin-bottom: 30px;
 }
 
 .main-banner__photo {
@@ -32,5 +33,50 @@
   top: 61px;
   right: 130px;
 }
+
+.main-banner__group {
+  max-width: 394px;
+  margin-bottom: 150px;
+}
+
+.main-banner__list {
+  display: flex;
+  gap: 40px;
+} 
+
+.main-banner__item {
+  align-self: flex-end;
+}
+
+.main-banner__text {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-banner__text_purple {
+  font-weight: 900;
+  font-size: 100px;
+  color: #cd06ff;
+}
+
+.main-banner__text_purple-small {
+  font-weight: 900;
+  font-size: 75px;
+  color: #cd06ff;
+  font-variant: all-small-caps;
+}
+
+.main-banner__btn {
+  padding: 25px 69px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15385;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #6c0287;
+  border-radius: 10px;
+}
+
 
 

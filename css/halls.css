@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;  
+  gap: 20px;
 }
 
 .halls__link {
@@ -13,21 +14,11 @@
 .halls__item {
   width: 580px;
   min-height: 349px; 
-  margin-bottom: 20px;
-  margin-right: 20px; 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 134px 0;
   text-align: center;
-}
-
-.halls__item:nth-last-child(-n+2) {
-  margin-bottom: 0;
-}
-
-.halls__item:nth-child(even) {
-  margin-right: 0;
 }
 
 .halls__item_vibes {

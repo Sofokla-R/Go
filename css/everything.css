@@ -1,0 +1,32 @@
+.title-middle__long {
+  white-space: pre-line;
+}
+
+.everything__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.everything__item {
+  min-height: 228px;
+}
+
+.everything__photo-group {
+  position: relative;
+}
+
+.everything__img {
+  width: 100%;
+}
+
+.everything__caption {
+  position: absolute;
+  top: 166px;
+  left: 40px;
+  max-width: 300px;
+  white-space: pre-line;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+}

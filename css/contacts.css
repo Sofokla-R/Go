@@ -1,3 +1,36 @@
+.contacts {
+  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  padding-top: 45px;
+}
+
+.contacts__two-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 156px;
+}
+
+.contacts__img {
+  min-height: 274px;
+}
+
+.contacts__down {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+
+.contacts__down_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.contacts__down_right {
+  text-align: right;
+}
+
 .contacts__address {
   font-style: normal;
   padding-left: 60px;

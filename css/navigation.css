@@ -1,0 +1,38 @@
+.navigation {
+  padding-top: 30px;
+}
+
+.navigation__logo {
+  width: 120px;
+  min-height: 66px;
+}
+
+.navigation__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation__item {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 2.27;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navigation__btn {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #fff;
+  border:3px solid #cd06ff;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 12px 32px;
+}

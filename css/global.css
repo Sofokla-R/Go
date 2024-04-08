@@ -63,6 +63,10 @@ h1, h2, h3, p, figure, fieldset {
   margin: 0;
 }
 
+fieldset {
+  padding: 0;
+}
+
 iframe {
   border: none;
 }
@@ -86,7 +90,8 @@ section {
   padding: 50px 0;
 }
 
-section:first-child {
-  padding-top: 146px; 
+section:nth-child(4) {
+  padding-bottom: 100px;
 }
+
 
