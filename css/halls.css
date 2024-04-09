@@ -22,17 +22,17 @@
 }
 
 .halls__item_vibes {
-  background-image: url("/img/halls/vibes.jpeg");
+  background-image: url("../img/halls/vibes.jpeg");
 }
 
 .halls__item_wars {
-  background-image: url("/img/halls/star-wars.jpeg");
+  background-image: url("../img/halls/star-wars.jpeg");
 }
 
 .halls__item_west {
-  background-image: url("/img/halls/wild-west.jpeg");
+  background-image: url("../img/halls/wild-west.jpeg");
 }
 
 .halls__item_neon {
-  background-image: url("/img/halls/neon-style.jpeg");
+  background-image: url("../img/halls/neon-style.jpeg");
 }
