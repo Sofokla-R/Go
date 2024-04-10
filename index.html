@@ -46,6 +46,11 @@
         </ul>
       </div>
       <button class="main-banner__btn" type="submit">Забронировать</button>
+      <svg class="main-banner__svg" width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="48.5" cy="48.5" r="48" stroke="white" />
+        <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white" />
+        <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white" />
+      </svg>
       <img class="main-banner__photo" src="img/main-photo.png" alt="Фото мужчины в виртуальных очках">
     </div>
   </section>
@@ -176,11 +181,26 @@
           <legend class="booking__legend">Выбери дату и время</legend>
           <div class="booking__row">
             <div class="booking__column booking__column_row">
-              <input class="booking__input_date booking__input_width1" type="date" name="date" required placeholder="Дата">
-              <input class="booking__input_date booking__input_width1" type="time" name="time" required placeholder="Время">
+              <div class="booking__input_wrapper">
+                <input class="booking__input_date booking__input_width1" type="text" name="date" required placeholder="Дата">
+                <svg class="booking__arrow" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 12L0.406734 0.75L18.5933 0.75L9.5 12Z" fill="#211E1E" />
+                </svg>
+              </div>
+              <div class="booking__input_wrapper">
+                <input class="booking__input_date booking__input_width1" type="text" name="time" required placeholder="Время">
+                <svg class="booking__arrow" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 12L0.406734 0.75L18.5933 0.75L9.5 12Z" fill="#211E1E" />
+                </svg>
+              </div>
             </div>
             <div class="booking__column">
-              <input class="booking__input_date booking__input_width3" type="number" name="numberOfPersons" required placeholder="Сколько человек">
+              <div class="booking__input_wrapper">
+                <input class="booking__input_date booking__input_width3" type="number" name="numberOfPersons" required placeholder="Сколько человек">
+                <svg class="booking__arrow" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 12L0.406734 0.75L18.5933 0.75L9.5 12Z" fill="#211E1E" />
+                </svg>
+              </div>
             </div>
           </div>
           <div class="booking__row">
@@ -226,7 +246,8 @@
             <p class="about__quote-founder">GAME OVER - 
             это место незабываемых впечатлений</p>
             <div class="about__author-info">
-              <img class="about__owner-photo" src="img/about/owner-photo.jfif" alt="Фото создателя">
+              <div class="about__owner-photo-inner">
+              <img class="about__owner-photo" src="img/about/owner-photo.jfif" alt="Фото создателя"></div>
               <cite class="about__quote-author">Аркадий Абакшин, создатель игровой территории GAME OVER</cite>
             </div>
           </blockquote>

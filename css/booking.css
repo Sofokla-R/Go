@@ -40,15 +40,17 @@
 }
 
 .booking__fieldset_compile {
-  display: flex;
-  margin-bottom: 0;
+  display: flex;  
+  justify-content: center;  
+  column-gap: 100px;
+  margin-bottom: 0; 
 }
 
 .booking__fieldset_column {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   row-gap: 20px;
-  padding-left: 100px;
 }
 
 .booking__legend_sub {
@@ -101,8 +103,9 @@ input[type="checkbox"] {
 .booking__column_row {
   display: flex;
   flex-direction: row;
+  align-items: center; 
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 22px;
   margin-bottom: 36px;
 }
 
@@ -120,6 +123,7 @@ input[type="checkbox"] {
   line-height: 1.55;
   color: #211e1e;
   padding: 12px 20px;
+  position: relative; 
 }
 
 .booking__input_width1 {
@@ -132,6 +136,17 @@ input[type="checkbox"] {
 
 .booking__input_width3 {
   width: 300px;
+}
+
+.booking__input_wrapper {
+  position: relative;
+}
+
+.booking__arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .booking__button {

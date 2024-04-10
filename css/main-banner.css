@@ -1,6 +1,6 @@
-
 .main-banner {
   min-height: 922px;
+  position: relative;
 }
 
 .container {
@@ -19,7 +19,7 @@
 
 .main-banner__subtitle {
   display: inline-block;
-  padding-left: 90px;
+  padding-left: 100px;
   font-weight: 400;
   font-size: 28px;
   line-height: 1.8;
@@ -31,7 +31,17 @@
   height: auto;
   position: absolute;
   top: 61px;
-  right: 130px;
+  right: 30px;
+}
+
+.main-banner__svg {
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+  z-index: 1; 
 }
 
 .main-banner__group {

@@ -9,6 +9,9 @@
   font-weight: 700;
   font-size: 70px;
   text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  max-width: 252px;
 }
 
 .halls__item {

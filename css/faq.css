@@ -17,7 +17,7 @@
   top: 25px;
   width: 40px;
   height: 40px;
-  background-image: url("/icons/faq/open-purple.svg");
+  background-image: url("../icons/faq/open-purple.svg");
   background-size: contain;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .faq__item:nth-child(even):after {
-  background-image: url("/icons/faq/open.svg");
+  background-image: url("../icons/faq/open.svg");
 }
 
 .faq__item:last-child {
