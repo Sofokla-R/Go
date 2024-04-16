@@ -35,6 +35,21 @@
   width: 250px;
 }
 
+.booking__label_choose:hover {
+  border: 3px solid #640aa3;
+  background-color: #eadeed;
+}
+
+.booking__label_choose:focus {
+  border: 3px solid #640aa3;
+}
+
+.booking__label_choose:active {
+  border: 3px solid #fff;
+  background-color: #6c0287;
+  color: #fff;
+}
+
 .booking__input_choose {
   display: none;
 }
@@ -76,6 +91,10 @@ input[type="checkbox"] {
   width: 25px;
   height: 25px;
   margin-right: 12px;
+}
+
+input[type="radio"]:focus, input[type="checkbox"]:focus {
+  outline: 1px solid #cd06ff;
 }
 
 .booking__fieldset_date {
@@ -126,6 +145,10 @@ input[type="checkbox"] {
   position: relative; 
 }
 
+.booking__input_date:focus {
+  outline: 2px solid #cd06ff;
+}
+
 .booking__input_width1 {
   width: 134px;
 }
@@ -167,16 +190,21 @@ input[type="checkbox"] {
   margin-right: 0;
 }
 
-/* .booking__input_date input[type="date"]::after,
-.booking__input_date input[type="time"]::after,
-.booking__input_date input[type="number"]::after {
-  content: "\25BC";
-  width: 21px;
-  height: 15px;
-  color: black;
-  display: inline-block;
-  vertical-align: middle;
-} */
+.booking__btn:hover {
+  background-color: #eadeed;
+  border: 3px solid #6c0287;
+}
+
+.booking__btn:focus {
+  background-color: #fff;
+  border: 3px solid #6c0287;
+}
+
+.booking__btn:active {
+  background-color: #eadeed;
+}
+
+
 
 
 
