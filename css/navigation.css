@@ -32,19 +32,20 @@
   line-height: 1.36;
   text-transform: uppercase;
   color: #fff;
-  border:3px solid #cd06ff;
+  border: 3px solid #cd06ff;
   border-radius: 10px;
   background-color: transparent;
   padding: 12px 32px;
+  transition: background-color 2s ease, border 2s ease;
 }
 
 .navigation__btn:hover, .navigation__btn:focus {
   background-color: #6c0287;
-  border:3px solid #6c0287;
+  border: 3px solid #6c0287;
 }
 
 .navigation__btn:active {
   background-color: #640aa3;
-  border:1px solid #000;
+  border: 1px solid #000;
+  outline: 2px solid transparent;
 }
-

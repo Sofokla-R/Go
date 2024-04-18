@@ -44,6 +44,11 @@
   z-index: 1;
 }
 
+.main-banner__svg circle,
+.main-banner__svg rect {
+  transition: all 2s ease;
+}
+
 .main-banner__svg:hover circle {
   fill: #fff;
 }
@@ -108,9 +113,10 @@
   color: #fff;
   background-color: #6c0287;
   border-radius: 10px;
+  transition: background-color 2s ease;
 }
 
-.main-banner__btn:hover {
+.main-banner__btn:hover  {
   background-color: #840aa3;
 }
 

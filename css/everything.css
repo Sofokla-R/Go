@@ -12,6 +12,12 @@
   min-height: 228px;
 }
 
+.everything__item:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
 .everything__photo-group {
   position: relative;
 }
