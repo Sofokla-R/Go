@@ -19,10 +19,12 @@
   height: 40px;
   background-image: url("../icons/faq/open-purple1.svg"); 
   background-size: contain;
+  transition-duration: 2s; 
+  transition-timing-function: ease; 
 }
 
 .faq__item:hover:after {
-  background-image: url("../icons/faq/open-purple.svg"); 
+  background-image: url("../icons/faq/open-purple.svg");
 }
 
 .faq__item:active:after {

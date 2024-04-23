@@ -1,5 +1,5 @@
 .booking {
-  background-color: #440f51;
+  background-color: var(--background-color, #440f51);
   padding: 80px 0;
 }
 
@@ -38,12 +38,12 @@
 }
 
 .booking__label_choose:hover {
-  border: 3px solid #640aa3;
+  border: 3px solid var(--border, #640aa3);
   background-color: #eadeed;
 }
 
 .booking__label_choose:focus {
-  border: 3px solid #640aa3;
+  border: 3px solid var(--border, #640aa3);
 }
 
 .booking__label_choose:active {
@@ -98,7 +98,7 @@ input[type="checkbox"] {
 }
 
 input[type="radio"]:focus, input[type="checkbox"]:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--outline, #cd06ff);
 }
 
 .booking__fieldset_date {
@@ -151,7 +151,7 @@ input[type="radio"]:focus, input[type="checkbox"]:focus {
 }
 
 .booking__input_date:focus {
-  outline: 2px solid #cd06ff;
+  outline: 2px solid var(--outline, #cd06ff);
 }
 
 .booking__input_width1 {
@@ -189,7 +189,7 @@ input[type="radio"]:focus, input[type="checkbox"]:focus {
   line-height: 28px; 
   line-height: 1.27;
   text-transform: uppercase;
-  color: #6c0287;
+  color: var(--btn-color, #6c0287);
   padding: 16px 50px;
   border-radius: 10px;
   margin-right: 0;
@@ -200,12 +200,12 @@ input[type="radio"]:focus, input[type="checkbox"]:focus {
 
 .booking__btn:hover {
   background-color: #eadeed;
-  border: 3px solid #6c0287;
+  border: 3px solid var(--btn-color, #6c0287);
 }
 
 .booking__btn:focus {
   background-color: #fff;
-  border: 3px solid #6c0287;
+  border: 3px solid var(--btn-color, #6c0287);
 }
 
 .booking__btn:active {

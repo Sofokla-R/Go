@@ -12,8 +12,22 @@
   min-height: 228px;
 }
 
+.everything__item:nth-child(2) {
+  margin-top: calc(70px);
+}
+
+.everything__item:nth-child(4), .everything__item:nth-child(6) {
+  margin-top: calc(-70px);
+}
+
 .everything__item:hover {
   transform: scale(1.1);
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.everything__item:not(:hover) {
+  transform: scale(1);
   transition-duration: 2s;
   transition-timing-function: ease;
 }

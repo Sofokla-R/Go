@@ -109,11 +109,11 @@
 }
 
 .contacts__link:hover {
-  color: #eadeed;
+  color: var(--link-color, #eadeed);
 }
 
 .contacts__link:focus {
-  color: #eadeed;
+  color: var(--link-color, #eadeed);
   outline: 1px solid #cd06ff;
   border-radius: 0;
 }

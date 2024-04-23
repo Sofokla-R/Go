@@ -1,0 +1,15 @@
+:root {
+  --background-color: #1B1A1B;
+  --main-color: #fff;
+  --btn-color: #6c0287;
+  --outline: #cd06ff;
+}
+
+.booking {
+  --background-color: #440f51;
+  --border: #640aa3;  
+}
+
+.contacts {
+  --link-color: #eadeed;
+}

@@ -42,28 +42,29 @@
   transform: translateX(-50%);
   bottom: -50px;
   z-index: 1;
+  transition: fill 2s ease, stroke 2s ease;
 }
 
 .main-banner__svg circle,
 .main-banner__svg rect {
-  transition: all 2s ease;
+  transition: fill 2s ease, stroke 2s ease;
 }
 
 .main-banner__svg:hover circle {
   fill: #fff;
 }
 
-.main-banner__svg:hover rect {
+.main-banner__svg:hover rect {  
   fill: #6c0287;
 }
 
 .main-banner__svg:focus  {
-  outline: 2px solid #cd06ff;
+  outline: 2px solid var(--outline, #cd06ff); 
 }
 
 .main-banner__svg:active circle {
-  fill: #cd06ff;
-  stroke: #cd06ff;
+  fill: var(--outline, #cd06ff);
+  stroke: var(--outline, #cd06ff);
   border-radius: 0;
 }
 
@@ -94,13 +95,13 @@
 .main-banner__text_purple {
   font-weight: 900;
   font-size: 100px;
-  color: #cd06ff;
+  color: var(--outline, #cd06ff);
 }
 
 .main-banner__text_purple-small {
   font-weight: 900;
   font-size: 75px;
-  color: #cd06ff;
+  color: var(--outline, #cd06ff);
   font-variant: all-small-caps;
 }
 
@@ -111,7 +112,7 @@
   line-height: 1.15385;
   text-transform: uppercase;
   color: #fff;
-  background-color: #6c0287;
+  background-color: var(--btn-color, #6c0287);
   border-radius: 10px;
   transition: background-color 2s ease;
 }
